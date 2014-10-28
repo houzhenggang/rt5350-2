@@ -13,18 +13,18 @@
 #include <fcntl.h>
 #include <string.h>
 
+/* socket
+ * connect
+ * send/recv
+ */
+#define SERVER_PORT                         8888
+
 #define ESC                                 27          // char 'esc'
 #define ENTER                               13          // char 'enter'
 #define ACCELERATE                          91          // char '['
 #define DECELERATE                          93          // char ']'
 #define SPACE                               32          // char 'space'
 #define TEMPERATURE                         116         // char 't'
-
-/* socket
- * connect
- * send/recv
- */
-#define SERVER_PORT                         8888
 
 /* request type */
 #define REQ_CMD_TYPE_DIRECTION              0
